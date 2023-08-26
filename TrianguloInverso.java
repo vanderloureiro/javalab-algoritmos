@@ -7,7 +7,7 @@ public class TrianguloInverso {
             for (int j = i; j < tamanho; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < 2 * i - 1; j++) {
+            for (int k = 0; k < 2 * i - 1; k++) {
                 System.out.print("*");
             }
             System.out.println("");
