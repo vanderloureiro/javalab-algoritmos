@@ -1,3 +1,5 @@
+package dev.vanderloureiro;
+
 public class TrianguloInverso {
 
     public static void main(String args[]) {

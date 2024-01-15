@@ -1,5 +1,7 @@
+package dev.vanderloureiro;
+
 public class Fatorial {
-    
+
     public static void main(String args[]) {
         int valor = 1;
         int fatorial = 10;
