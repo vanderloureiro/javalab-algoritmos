@@ -1,4 +1,4 @@
-package dev.vanderloureiro;
+package dev.vanderloureiro.outros;
 
 public class Fatorial {
 

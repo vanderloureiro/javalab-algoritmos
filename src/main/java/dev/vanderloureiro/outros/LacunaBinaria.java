@@ -1,4 +1,4 @@
-package dev.vanderloureiro;
+package dev.vanderloureiro.outros;
 
 public class LacunaBinaria {
 
@@ -9,7 +9,7 @@ public class LacunaBinaria {
 
         // 529 = 1000010001
         int representacao[] = {1,0,0,0,0,1,0,0,0,1};
-        var represent = Integer.toString(529, 2);
+        String represent = Integer.toString(529, 2);
         System.out.println(represent);
         int maiorLacuna = 0;
         for (int i : representacao) {

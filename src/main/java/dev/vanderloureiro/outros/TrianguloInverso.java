@@ -1,10 +1,10 @@
-package dev.vanderloureiro;
+package dev.vanderloureiro.outros;
 
 public class TrianguloInverso {
 
     public static void main(String args[]) {
 
-        var tamanho = 4;
+        int tamanho = 4;
         for (int i = tamanho; i > 0; i--) {
             for (int j = i; j < tamanho; j++) {
                 System.out.print(" ");
