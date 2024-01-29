@@ -3,7 +3,7 @@ package dev.vanderloureiro.outros;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class InverterStringJavaBuffer {
+public class InverterStringBuilder {
 
     @Test
     public void inverterString() {
@@ -12,7 +12,7 @@ public class InverterStringJavaBuffer {
     }
 
     private String executa(String texto) {
-        StringBuffer buffer = new StringBuffer(texto);
-        return buffer.reverse().toString();
+        StringBuilder builder = new StringBuilder(texto);
+        return builder.reverse().toString();
     }
 }
