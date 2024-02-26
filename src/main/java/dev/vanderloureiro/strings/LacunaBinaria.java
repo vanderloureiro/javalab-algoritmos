@@ -1,4 +1,4 @@
-package dev.vanderloureiro.outros;
+package dev.vanderloureiro.strings;
 
 public class LacunaBinaria {
 

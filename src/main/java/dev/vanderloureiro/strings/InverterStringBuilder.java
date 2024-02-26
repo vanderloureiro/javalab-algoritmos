@@ -1,4 +1,4 @@
-package dev.vanderloureiro.outros;
+package dev.vanderloureiro.strings;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
