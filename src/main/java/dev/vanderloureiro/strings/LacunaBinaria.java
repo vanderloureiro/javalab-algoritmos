@@ -9,10 +9,11 @@ public class LacunaBinaria {
      */
     public static void main(String args[]) {
 
-        // 529 = 1000010001
-        // int representacao[] = {1,0,0,0,0,1,0,0,0,1};
-        int resposta = lacunaBinaria(529);
-        Assertions.assertEquals(4, resposta);
+        Assertions.assertEquals(4, lacunaBinaria(529));
+        Assertions.assertEquals(0, lacunaBinaria(8));
+        Assertions.assertEquals(1, lacunaBinaria(22));
+        Assertions.assertEquals(1, lacunaBinaria(5));
+        Assertions.assertEquals(0, lacunaBinaria(6));
     }
 
     private static int lacunaBinaria(int n) {
@@ -22,10 +23,8 @@ public class LacunaBinaria {
         for (int i = 0; i < representacao.length(); i++) {
             if (representacao.charAt(i) == '0') {
                 lacunaCorrente++;
-                if (lacunaCorrente > maiorLacuna) {
-                    maiorLacuna = lacunaCorrente;
-                }
             } else {
+                maiorLacuna = Integer.max(maiorLacuna, lacunaCorrente);
                 lacunaCorrente = 0;
             }
         }
