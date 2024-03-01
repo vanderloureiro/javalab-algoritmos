@@ -9,14 +9,14 @@ public class LacunaBinaria {
      */
     public static void main(String args[]) {
 
-        Assertions.assertEquals(4, lacunaBinaria(529));
-        Assertions.assertEquals(0, lacunaBinaria(8));
-        Assertions.assertEquals(1, lacunaBinaria(22));
-        Assertions.assertEquals(1, lacunaBinaria(5));
-        Assertions.assertEquals(0, lacunaBinaria(6));
+        Assertions.assertEquals(4, executa(529));
+        Assertions.assertEquals(0, executa(8));
+        Assertions.assertEquals(1, executa(22));
+        Assertions.assertEquals(1, executa(5));
+        Assertions.assertEquals(0, executa(6));
     }
 
-    private static int lacunaBinaria(int n) {
+    private static int executa(int n) {
         String representacao = Integer.toBinaryString(n);
         int maiorLacuna = 0;
         int lacunaCorrente = 0;
